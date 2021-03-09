@@ -1,0 +1,76 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+150
+"GREATERSOFT
+Makers: Cristian Josué Galvis Fonseca - Nicolás Casas Bello
+DESCRIPTION: This software tries to find out who is older between two ages"
+4
+1
+13
+"imput year1"
+5
+1
+7
+v_year1
+4
+1
+13
+"imput year2"
+5
+1
+7
+v_year2
+7
+0
+1
+28
+v_year1>2021 OR v_year2>2021
+6
+2
+6
+v_age1
+14
+2021 - v_year1
+6
+v_age2
+14
+2021 - v_year2
+7
+0
+1
+14
+v_age1= v_age2
+7
+0
+1
+13
+v_age1<v_age2
+4
+1
+26
+"The youngest is", v_year2
+13
+4
+1
+26
+"The youngest is", v_year1
+13
+13
+4
+1
+19
+"The both are same"
+13
+13
+4
+1
+72
+"ERR: Some of the years types are wrong - both should be less than 2021"
+13
+1

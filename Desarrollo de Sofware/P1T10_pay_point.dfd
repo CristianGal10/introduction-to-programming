@@ -1,0 +1,74 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+178
+"PRICESSOFT V 1.0 - Maker: Cristian Josué Galvis Fonseca - DESCRIPTION: This software use to find the price of a product whit its respective iva - imput the price of the product"
+5
+1
+20
+v_priceoftheproduct1
+4
+1
+39
+"imput the price of the second product"
+5
+1
+20
+v_priceoftheproduct2
+4
+1
+38
+"imput the price of the third product"
+5
+1
+20
+v_priceoftheproduct3
+4
+1
+39
+"imput the price of the fourth product"
+5
+1
+20
+v_priceoftheproduct4
+7
+0
+1
+103
+v_priceoftheproduct1<=0 OR v_priceoftheproduct2<=0 OR v_priceoftheproduct3<0 OR v_priceoftheproduct4<0 
+6
+1
+20
+v_priceoftheproducts
+88
+v_priceoftheproduct1+ v_priceoftheproduct2 + v_priceoftheproduct3 + v_priceoftheproduct4
+4
+1
+61
+"price of the products is: " ,  v_priceoftheproducts," pesos"
+6
+1
+11
+v_VATprices
+25
+v_priceoftheproducts*0.19
+4
+1
+50
+"He VAT of the products is: ",v_VATprices," pesos"
+4
+1
+351
+"Price of the first product is: ", v_priceoftheproduct1," pesos - Price of the second product is: ", v_priceoftheproduct2," pesos - Price of the third product is: ", v_priceoftheproduct3," pesos - Price of the fourth product is: ", v_priceoftheproduct4," pesos - VAT price is: ", v_VATprices," pesos - Total to pay is: ", v_priceoftheproducts," pesos"
+13
+4
+1
+65
+"ERR: the prices entered are wrong - they must be greater than 0"
+13
+1

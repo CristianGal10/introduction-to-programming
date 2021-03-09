@@ -1,0 +1,86 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+109
+"SOFTLEVELAGE - Maker: Cristian Galvis - DESCRIPTION: This software is used to determine the level of ages"
+
+4
+1
+17
+"imput the years"
+5
+1
+7
+v_years
+7
+0
+1
+10
+v_years<=0
+7
+0
+1
+11
+v_years<=12
+7
+0
+1
+27
+v_years>=13 OR v_ years<=18
+7
+0
+1
+26
+v_years>=19 OR v_years<=45
+7
+0
+1
+27
+v_years>= 46 OR v_years<=90
+7
+0
+1
+10
+v_years>90
+13
+4
+1
+32
+"daddy, you are already a relic"
+13
+13
+4
+1
+9
+"Elderly"
+13
+13
+4
+1
+7
+"Adult"
+13
+13
+4
+1
+6
+"Teen"
+13
+13
+4
+1
+10
+"Children"
+13
+13
+4
+1
+20
+"ERR: invalite data"
+13
+1
