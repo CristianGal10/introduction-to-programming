@@ -1,0 +1,77 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+137
+"SOFTLOWER100 V 1.0 - Maker: Cristian Galvis - DESCRIPTION: this software calculated the sum and the average fro number greater than 100"
+6
+3
+5
+v_sum
+1
+0
+9
+v_average
+1
+0
+7
+v_count
+1
+0
+4
+1
+16
+"input a number"
+5
+1
+8
+v_number
+9
+1
+12
+v_number>100
+6
+2
+5
+v_sum
+14
+v_sum+v_number
+7
+v_count
+11
+v_count + 1
+4
+1
+16
+"input a number"
+5
+1
+8
+v_number
+11
+7
+0
+1
+9
+v_count=0
+6
+1
+9
+v_average
+13
+v_sum/v_count
+4
+1
+85
+"the sum is ", v_sum, " and the average is: ", v_average, " for ", v_count," numbers"
+13
+4
+1
+49
+"ERR: the total numbers grater over 100 are zero"
+13
+1
