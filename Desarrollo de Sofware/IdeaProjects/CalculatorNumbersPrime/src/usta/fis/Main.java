@@ -17,14 +17,16 @@ public class Main {
             Scanner keyboard = new Scanner(System.in);
 
             do {
-                System.out.println("Please, type one for sum, two for subtract; three for multiply, four for divide; five for know if it is a prime number," +
-                        " six for that the prime numbers less than the digitized come out and zero for exit");
+                System.out.println("Please, type one for sum, two for subtract, three for multiply, four for divide, five for know if it is a prime number, six for that the prime numbers less than the digitized come out,zero for exit");
+                v_operation = keyboard.nextInt();
+                if (v_operation == 0){
+                    System.exit(0);}
+                if (v_operation != 0){
                 v_operation = keyboard.nextInt();
                 System.out.println("Please, type the number one");
                 v_number_one = keyboard.nextInt();
-                System.out.println("Please, type the number two");
+                System.out.println("Please, type the number two");}
                 if (v_operation>0 && v_operation<5) {
-                    System.out.println("Please, type the number two");
                     v_number_two = keyboard.nextInt();
                 }
                 System.out.println("The result is:" + p_operate_numbers(v_number_one, v_number_two, v_operation));
@@ -60,7 +62,6 @@ public class Main {
                     break;
                 default:
                     v_convert = "Exit";
-                    System.exit(0);
             }
 
             if (v_convert.isEmpty()) {
